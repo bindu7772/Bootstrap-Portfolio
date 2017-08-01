@@ -30,7 +30,6 @@ p{
 .sect_1{
     background-color: #e6e5cf;
     height: auto;
-    padding-left: 15px;
 }
 .sect1_div1{
     margin-top: 25px;
@@ -59,4 +58,35 @@ p{
 .sect2_p{
     text-align: center;
     padding: 25px;
+}
+.temp{
+    margin-right: 0px;
+}
+.sect_2{
+    background-color: black;
+    color: white;
+}
+.sect2_p{
+    text-align: center;
+    padding: 25px;
+}
+
+h1,h3{
+	border-bottom: 2px solid gray;
+    color: gray;
+    margin-top: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.abt_me{
+	padding-left: 0px;
+}
+
+.custom_nav a:hover{
+    text-decoration: none;
+}
+
+.btn_custom{
+margin-bottom: 35px;
+margin-top: 25px;
 }

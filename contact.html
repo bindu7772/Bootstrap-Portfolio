@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>About me</title>
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-                <header>
-                <div id="name"><p id="p_name">Mansi Patel</p></div>
-        <div id="menu">
-                <a href="index.html" id="abt">About</a>
-            <a href="portfolio.html" id="pf">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </header>
-    <div id="sect1">
-                <div id="prt_1">
-                                <h1>Contact</h1>
-                                <p id="form_name">Name</p>
-                                <input type="text" name="frm_name" id="frm_name" placeholder="Mansi Patel">
+    <head>
+        <title>About me</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+     <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1 name">
+                    <p class="p_name">Mansi Patel</p>
+                </div>
+                <div class="col-md-9">
+                    <ul class="nav nav-tabs navbar-right custom_nav">
+                        <li class="custom_li"><a href="index.html" class="custom_a">About</a></li>
+                        <li class="custom_li"><a href="portfolio.html" class="custom_a">Portfolio</a></li>
+                        <li><a href="contact.html" class="custom_a">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row sect_1">
+            	<div class="col-md-5 col-md-offset-1 abt_me">
+                	<h1>Contact</h1>
+                </div>
+                
+                <div class="col-md-3 col-md-offset-2">
+                	<h3> Connect with me </h3>
+                </div>
+            </div>
+
+            <div class="row sect_1">
+                    <div class="col-md-5 col-md-offset-1 sect1_div1">                        
+                        		<p>Name</p>
+                                <input type="text" name="frm_name" placeholder="Mansi Patel" class="form-control">
                                 <p id="form_email">Email</p>
-                                <input type="text" name="frm_email" id="frm_email" placeholder="abc@gmail.com">
+                                <input type="text" name="frm_email" placeholder="abc@gmail.com" class="form-control">
                                 <p id="form_msg">Message</p>
-                                <textarea rows="7" cols="70" id="form_msg"></textarea>
-                                <input type="submit" name="submit" id="form_submit">
-                </div>
- 
-                <div id="prt_2">
-                          <h3>Connect with Me</h3>   
-                          <a href="https://github.com/bindu7772"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNZr-5JKjI084xZ1R2OZb3txdbriL3ICWg6Z5YA7oUfUxE8QI" id="git"/></a>
-                          <a href="https://www.linkedin.com/in/patel-mansi-3326a184"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" id="linkedin"></a>  
-                          <a href="gmail.com"><img src="http://findicons.com/files/icons/1181/flurry_extras_2/256/gmail.png" id="gmail"></a>
-                </div>
-    </div>
-    <div id="sect2">
-                <p>@Copyright 2017 Mansi Patel</p>
-    </div>
+                                <textarea rows="7" cols="74" class="form-control"></textarea>
+                                <input type="submit" name="submit" class="btn btn-primary btn_custom">
+                    </div>
+                    
+                    <div class="col-md-1 col-md-offset-2 sect1_div2">    
+                        <a href="https://github.com/bindu7772"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNZr-5JKjI084xZ1R2OZb3txdbriL3ICWg6Z5YA7oUfUxE8QI" alt="Github icon" class="img img-responsive" /></a>
+                    </div>
+                    <div class="col-md-1 sect1_div2">
+                        <a href="https://www.linkedin.com/in/patel-mansi-3326a184"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" alt="Linkedin icon" class="img img-responsive"></a> 
+                    </div>
+                    <div class="col-md-1 sect1_div2">
+                        <a href="gmail.com"><img src="http://findicons.com/files/icons/1181/flurry_extras_2/256/gmail.png" alt="gmail icon" class="img img-responsive"></a>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="row sect_2 temp">
+            <p class="sect2_p">@Mansi Patel 2017</p>
+        </div>
 </body>
 </html>
