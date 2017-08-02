@@ -2,67 +2,73 @@
 <html>
     <head>
         <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
     <body>
-        <div class="container-fluid">
+        <nav class="navbar navbar-default nav-bg">
+            <div class="container">
+                <div class="row">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand name" href="#">Mansi Patel</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right custom_menu">
+                            <li><a href="index.html">About</a></li> 
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container main_sect">
             <div class="row">
-                <div class="col-md-2 col-md-offset-1 name">
-                    <p class="p_name">Mansi Patel</p>
-                </div>
-                <div class="col-md-9">
-                    <ul class="nav nav-tabs navbar-right custom_nav">
-                        <li class="custom_li"><a href="index.html" class="custom_a">About</a></li>
-                        <li class="custom_li"><a href="portfolio.html" class="custom_a">Portfolio</a></li>
-                        <li><a href="contact.html" class="custom_a">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="row sect_1">
-            	<div class="col-md-5 col-md-offset-1 abt_me">
-                	<h1>About Me</h1>
-                </div>
-                
-                <div class="col-md-3 col-md-offset-2">
-                	<h3> Connect with me </h3>
-                </div>
-            </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 sect_1">
+                    <img src="http://www.avatars.com.au/avatars/flowers/sunflowers-150x150.jpg" class="img img-responsive img-thumbnail pull-left"/>
+                    <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.Web browsers receive HTML documents from a webserver or from local storage and render them into multimedia web pages.HTML describes the structure of a web page semantically included cues for the appearance of the document.</p>
 
-            <div class="row sect_1">
-                    <div class="col-md-2 col-md-offset-1 sect1_div1">
-                        <img src="http://stuffpoint.com/nature/image/258168-nature-beautiful-nature.jpg" alt="Nature Image" class="img img-responsive"/>
-                    </div>
-                    <div class="col-md-3 sect1_div1">
-                        <p class="custom_p">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.Web browsers receive HTML documents from a webserver or from local storage and render them into multimedia web pages.HTML describes </p>
-                    </div>
+                    <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.
+                </div>
 
-                    <div class="col-md-1 col-sm-2 col-xs-2 col-md-offset-2 sect1_div2">    
-                        <a href="https://github.com/bindu7772"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNZr-5JKjI084xZ1R2OZb3txdbriL3ICWg6Z5YA7oUfUxE8QI" class="img img-responsive" /></a>
+                <div class="col-md-4 col-md-offset-2 col-sm-12 col-xs-12 sect_2">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-4 icon-size">
+                            <a href="https://github.com"><img src="https://www.drupal.org/files/project-images/github_commits_logo_0.png" class="img img-responsive"></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4 icon-size">
+                            <a href="https://gmail.com"><img src="https://cdn2.iconfinder.com/data/icons/metro-ui-dock/512/Gmail.png" class="img img-responsive"></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4 icon-size">
+                            <a href="https://facebook.com"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-256.png" class="img img-responsive"></a>
+                        </div>
                     </div>
-                    <div class="col-md-1 col-sm-2 col-xs-2 sect1_div2">
-                        <a href="https://www.linkedin.com/in/patel-mansi-3326a184"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" alt="Linkedin icon" class="img img-responsive"></a> 
-                    </div>
-                    <div class="col-md-1 col-sm-2 col-xs-2 sect1_div2">
-                        <a href="gmail.com"><img src="http://findicons.com/files/icons/1181/flurry_extras_2/256/gmail.png" alt="gmail icon" class="img img-responsive"></a>
-                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="row sect_1 temp">
-            <div class="col-md-5 col-md-offset-1 row_2">
-                <p>the structure of a web page semantically included cues for appearance of the document.Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.Web browsers receive HTML documents from a webserver or from local storage and render them into multimedia web pages.HTML describes</p>
-                <p>Commodo amet vulputate nullam integer magnis platea: Gravida curabitur suscipit placerat, nunc nisl mi. Donec augue viverra convallis tincidunt laoreet pulvinar proin, consectetuer porttitor interdum eleifend ligula nulla... Habitasse vitae tincidunt eget cras; Ligula blandit feugiat porta euismod lectus... Suspendisse sagittis platea pellentesque ut. Sociosqu sociis neque sociis feugiat; Elit aliquet elementum... Nec habitasse ultrices viverra amet! Mi lacus eget: Magnis taciti at habitasse... Dui arcu potenti montes convallis ridiculus ante, ridiculus tortor praesent sed! Facilisi fringilla dui vehicula dis viverra pulvinar? Luctus elit ultricies bibendum... Vehicula sociis senectus sociis penatibus. Risus fusce curabitur vivamus dui integer, leo a sodales adipiscing quis lacinia; Nunc sed vel nostra ultricies varius hac... Morbi ridiculus sit. Tempor dignissim habitant class vestibulum torquent. Laoreet fames pulvinar a sit...
-
-                </p>
+        <div class="container-fluid">
+            <div class="row foot">
+                <p>@Mansi Patel 2017</p>
             </div>
         </div>
-        
-        <div class="row sect_2 temp">
-            <p class="sect2_p">@Mansi Patel 2017</p>
-        </div>
-</body>
+
+
+    </body>
 </html>
